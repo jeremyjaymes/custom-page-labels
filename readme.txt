@@ -21,7 +21,7 @@ If you have suggestions or bugfixes for the plugin, please report them on
 
 == Installation ==
 
-1. Upload `plugin-name.php` to the `/wp-content/plugins/` directory
+1. Upload `custom-page-labels` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Start adding your page labels.
 

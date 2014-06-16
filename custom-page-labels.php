@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:  Custom Page Labels
- * Plugin URI:   http://jeremyjaymes.com
+ * Plugin URI:   https://github.com/jeremyjaymes/custom-page-labels
  * Description:  Custom page label admin column and metabox
  * Version:      0.1.0
  * Author:       jeremyjaymes

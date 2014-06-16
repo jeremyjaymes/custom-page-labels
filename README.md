@@ -1,8 +1,8 @@
 # Custom Page Labels
 
-*Version*: 0.1.0
-*Requires*: 3.7
-*Tested up to*: 3.9.1
+*Version*: 0.1.0  
+*Requires*: 3.7  
+*Tested up to*: 3.9.1  
 *License*: GPLv2
 
 ## Description

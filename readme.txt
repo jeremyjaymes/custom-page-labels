@@ -31,6 +31,11 @@ If you have suggestions or bugfixes for the plugin, please report them on
 
 To help site authors, admins, and developers easily identify pages on the All Pages Screen.
 
+== Screenshots ==
+
+1. All Pages Screen shows label column.
+2. Edit page screen shows metabox.
+
 == Changelog ==
 
 = 0.1.0 =

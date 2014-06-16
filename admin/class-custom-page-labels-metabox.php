@@ -102,6 +102,11 @@ class PK_Custom_Page_Label_Meta {
         if ( !isset( $_POST['pk_cpl_page_label_nonce'] ) || !wp_verify_nonce( $_POST['pk_cpl_page_label_nonce'], basename( __FILE__ ) ) )
           return $post_id;
 
+        // If this is an autosave don't do anything
+        if ( defined( 'DOING_AUTOSAVE' ) && DOING_AUTOSAVE ) {
+          return;
+        }
+
         //* Get the post type object.
         $post_type = get_post_type_object( $post->post_type );
 
@@ -118,7 +123,7 @@ class PK_Custom_Page_Label_Meta {
         //* Get the meta value 
         $meta_value = get_post_meta( $post_id, $meta_key, true );
 
-        //* Edit it
+        //* Add it
         if ( $new_meta_value && '' == $meta_value )
           add_post_meta( $post_id, $meta_key, $new_meta_value, true );
 

@@ -84,19 +84,20 @@ class PK_Custom_Page_Labels {
     private $directory_uri;
 
     /**
-    * This is the constructor for WPAdminSlugColumn Class
-    *
-    * @return void
-    */
+     * Sets up for initialization
+     *
+     * @since  1.0.0
+     * @access public
+     */
     private function __construct() {
         
         //* load the plugin translation files
         add_action( 'plugins_loaded', array( $this, 'textdomain' ) );
 
-        //* Set the properties needed by the plugin.
+        //* Set up our paths.
         add_action( 'plugins_loaded', array( $this, 'setup' ), 1 );
 
-        //* Load the functions files. 
+        //* Load the core functions. 
         add_action( 'plugins_loaded', array( $this, 'includes' ), 3 );
     }
 
@@ -112,7 +113,7 @@ class PK_Custom_Page_Labels {
     }
 
     /**
-     * Loads the initial files needed by the plugin.
+     * Loads the core files.
      *
      * @since  0.1.0
      * @access public
@@ -138,7 +139,6 @@ class PK_Custom_Page_Labels {
      *
      * @since 0.1.0
      *
-     * @return void
      */
     public function textdomain() {
 

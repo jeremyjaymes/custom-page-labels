@@ -11,8 +11,11 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Add custom page labels to your pages so that they can be easily identified.
 
 == Description ==
+Not all page titles are as simple or as identifiable as "About Us" or "Home Page". More often they’re carefully crafted and even a bit lengthy. For example, about us becomes "Our Amazing Widget Company Employs Only the Best and the Brightest."
 
-Sometimes your page titles are not quite as simple as "About Us". This can make it dificult for site administrators and developers to identify pages on the All Pages Screen, especially when you have 20+ pages in your site. This simple plugin allows you to add a more descriptive label, displayed in an admin column on the pages screen so that pages can be easily identified.
+Identifying those pages on the All Pages Screen can be a challenge for a busy site admin looking to make quick edits.
+
+Custom Page Labels allows you to add a more descriptive label, displayed in an admin column on the pages screen so that pages can be easily identified.
 
 ### Plugin Development
 

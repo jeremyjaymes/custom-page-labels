@@ -1,13 +1,13 @@
 <?php
 /**
- * Plugin Name:  Custom Page Labels
- * Plugin URI:   https://github.com/jeremyjaymes/custom-page-labels
- * Description:  Custom page label admin column and metabox
- * Version:      0.1.0
- * Author:       jeremyjaymes
- * Author URI:   http://jeremyjaymes.com
- * Text Domain:  pk_custom_page_label
- * Domain Path:  /languages
+ * Plugin Name: Custom Page Labels
+ * Plugin URI: https://github.com/jeremyjaymes/custom-page-labels
+ * Description: Custom page label admin column and metabox
+ * Version: 0.1.0
+ * Author: jeremyjaymes
+ * Author URI: http://jeremyjaymes.com
+ * Text Domain: pk_custom_page_label
+ * Domain Path: /languages
  *
  * License: GPLv2 or later
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html

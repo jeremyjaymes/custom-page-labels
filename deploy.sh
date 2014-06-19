@@ -1,6 +1,6 @@
 #! /bin/bash
 # Source: https://raw.github.com/thenbrent/multisite-user-management/master/deploy.sh
-# http://thereforei.am/2011/04/21/git-to-svn-automated-wordpress-plugin-deployment/
+# See http://thereforei.am/2011/04/21/git-to-svn-automated-wordpress-plugin-deployment/ for info.
 # A modification of Dean Clatworthy's deploy script as found here: https://github.com/deanc/wordpress-plugin-git-svn
 # The difference is that this script lives in the plugin's git repo & doesn't require an existing SVN repo.
 

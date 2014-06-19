@@ -51,7 +51,6 @@ class PK_Custom_Page_Labels {
      * plugin file.
      *
      * @since    0.1.0
-     *
      * @var      string
      */
     protected $plugin_slug = 'pk_custom_page_label';
@@ -60,7 +59,6 @@ class PK_Custom_Page_Labels {
      * Instance of this class.
      *
      * @since    0.1.0
-     *
      * @var      object
      */
     protected static $instance = null;
@@ -127,7 +125,6 @@ class PK_Custom_Page_Labels {
      * Return the plugin slug.
      *
      * @since    1.0.0
-     *
      * @return    Plugin slug variable.
      */
     public function get_plugin_slug() {

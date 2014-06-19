@@ -141,6 +141,7 @@ class PK_Custom_Page_Label_Meta {
     *
     * @since 0.1.0
     * @access public
+    * @param array $columns
     */
     public function add_page_column( $columns ) {
         $labelcolumn = array(
@@ -157,8 +158,10 @@ class PK_Custom_Page_Label_Meta {
     *
     * @since 0.1.0
     * @access public
+    * @param int $post_id
+    * @param string $column_name
     */
-    public function page_column_data($column_name, $post_id) {
+    public function page_column_data( $column_name, $post_id ) {
         
         if ( $column_name == 'label_column' ) {
 

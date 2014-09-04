@@ -3,7 +3,7 @@ Contributors: jeremyjaymes
 Donate link: http://jeremyjaymes.com/donate
 Tags: admin column, labels, pages, pages screen
 Requires at least: 3.7
-Tested up to: 3.9
+Tested up to: 4.0
 Stable tag: 0.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -20,7 +20,7 @@ Custom Page Labels allows you to add a more descriptive label, displayed in an a
 ### Plugin Development
 
 If you have suggestions or bugfixes for the plugin, please report them on
-[GitHub Repository](https://github.com/jeremyjaymes/custom-page-labels).
+[GitHub](https://github.com/jeremyjaymes/custom-page-labels).
 
 == Installation ==
 

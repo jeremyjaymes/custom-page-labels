@@ -38,8 +38,9 @@ class PK_Custom_Page_Label_Meta {
         add_action( 'load-post.php', array( $this, 'load_metaboxes' ) );
         add_action( 'load-post-new.php', array( $this, 'load_metaboxes' ) );
 
-        add_filter('manage_pages_columns', array($this, 'add_page_column'));
-        add_action('manage_pages_custom_column', array($this, 'page_column_data'), 10, 2);
+        add_filter( 'manage_pages_columns', array( $this, 'add_page_column' ) );
+        add_action( 'manage_pages_custom_column', array( $this, 'page_column_data' ), 10, 2 );
+
    }
 
    /**
@@ -63,7 +64,7 @@ class PK_Custom_Page_Label_Meta {
     */
    public function create_metaboxes() {
 
-      add_meta_box( 'pk-page-label', __( 'Page Label', 'pk_custom_page_label' ), array( $this, 'build_metaboxes' ), 'page', 'side', 'high' );
+      add_meta_box( 'pk-page-label', __( 'Page Label', 'custom-page-labels' ), array( $this, 'build_metaboxes' ), 'page', 'side', 'high' );
 
    }
 
@@ -80,7 +81,7 @@ class PK_Custom_Page_Label_Meta {
             
             <!-- build metabox open -->
             <p>
-              <label for="pk-page-label"><?php _e( "Add a custom page label.", 'pk_cpl' ); ?></label>
+              <label for="pk-page-label"><?php _e( "Add a custom page label.", 'custom-page-labels' ); ?></label>
               <input class="widefat" type="text" name="_pk_page_label" id="pk-page-label" value="<?php echo esc_attr( get_post_meta( $post->ID, '_pk_page_label', true ) ); ?>" size="30" />
             </p>
             <!-- close metabox -->
@@ -142,10 +143,11 @@ class PK_Custom_Page_Label_Meta {
     * @since 0.1.0
     * @access public
     * @param array $columns
+    * @return array
     */
     public function add_page_column( $columns ) {
         $labelcolumn = array(
-          'label_column' => __( 'Page Label', 'threewire' )
+          'label_column' => __( 'Page Label', 'custom-page-labels' )
         );
         
         $columns = array_merge( $columns, $labelcolumn );
@@ -170,6 +172,8 @@ class PK_Custom_Page_Label_Meta {
             echo $page_label;
         }
     }
+
+
 
    /**
      * Returns the instance.

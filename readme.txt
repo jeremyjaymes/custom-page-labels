@@ -34,12 +34,24 @@ If you have suggestions or bugfixes for the plugin, please report them on
 
 To help site authors, admins, and developers easily identify pages on the All Pages Screen.
 
+### Can I sort by page label in the all pages admin screen?
+
+Not currently. This featured was suggested and attempted in dev but I'm not entirely sure it's going to work given the varied use cases for this plugin. If I can figure out a way to account for all of those cases I will add the feature.
+
+### Is this plugin meant to change or alter anything on the front end of my website.
+
+Short answer is no. However, since the data is being stored as a custom field it could technically be used on the front end.
+
 == Screenshots ==
 
 1. All Pages Screen shows label column.
 2. Edit page screen shows metabox.
 
 == Changelog ==
+
+= 0.2.0 =
+
+* Updated translation strings
 
 = 0.1.0 =
 

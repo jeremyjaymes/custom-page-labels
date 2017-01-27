@@ -3,10 +3,10 @@
 Plugin Name: Custom Page Labels
 Plugin URI: https://github.com/jeremyjaymes/custom-page-labels
 Description: Custom page label admin column and metabox
-Version: 0.1.0
+Version: 0.2.0
 Author: jeremyjaymes
 Author URI: http://jeremyjaymes.com
-Text Domain: pk_custom_page_label
+Text Domain: custom-page-labels
 Domain Path: /languages
 
 License: GPLv2 or later
@@ -53,7 +53,7 @@ class PK_Custom_Page_Labels {
      * @since    0.1.0
      * @var      string
      */
-    protected $plugin_slug = 'pk_custom_page_label';
+    protected $plugin_slug = 'custom-page-labels';
 
     /**
      * Instance of this class.
@@ -135,13 +135,13 @@ class PK_Custom_Page_Labels {
      * Load the plugin's text domain
      *
      * @since 0.1.0
+     * @access public
+     * @return void
      *
      */
     public function textdomain() {
-
-        $domain = $this->plugin_slug;
         
-        load_plugin_textdomain( $domain, false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
+        load_plugin_textdomain( 'custom-page-labels', false, trailingslashit( dirname( plugin_basename( __FILE__ ) ) ) . 'languages' );
     }
 
     

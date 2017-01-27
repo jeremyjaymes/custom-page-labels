@@ -14,5 +14,8 @@ You can also download it [here](https://wordpress.org/plugins/custom-page-labels
 
 ## Changelog
 
+### Version 0.2.0
+* Updated translation strings
+
 ### Version 0.1.0
 * All New
